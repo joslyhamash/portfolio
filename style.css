@@ -1,0 +1,89 @@
+header{
+    height: 40px;
+    background-color: #B7DBDE;
+}
+input[type="text"]{
+    border: 1px solid #C0BBBB;
+    width: 700px;
+    height: 30px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+button{
+    height: 35px;
+    width: 50px;
+    font-size: 15px;
+    background-color: #4285F4;
+    border-radius: 10px;
+    
+    
+}
+#list li{
+    display: inline;
+    margin-left: 50px;
+    
+}
+#list{
+    margin-left: 40px;
+    font-size: 20px;
+    float: left;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+#list li,a{
+    color: #8E8585;
+}
+
+#list,a:hover{
+    color: rgb(226, 205, 255);
+}
+
+#lastbtn{
+    width: 80px;
+    background-color: #4285F4;
+    color :white
+}
+#lastbtn,button{
+    margin-left: 50px;
+    cursor: pointer;
+}
+h1,h2,h3,h4,h5{
+    color: #4D78F6;
+    font-size: 25px;
+    margin-left: 120px;
+    font-style: Garamond;
+    overflow: hidden;
+}
+
+p{
+    margin-left: 120px;
+color: black;
+}
+
+a[target="red"]{
+    color:blue;
+}
+
+#pic img{
+    float: right;
+    margin-right: 300px;
+    margin-top: -50px;
+}
+
+#heading{
+float: left;
+
+}
+
+#clicked-para{
+    font-size: 50px;
+    color: red;
+    float: right;
+    margin-top: -100px;
+    margin-right: 200px;
+}
